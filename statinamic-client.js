@@ -25746,14 +25746,14 @@
 
 	// components
 
-	var _Layout = __webpack_require__(234);
+	var _layoutsWrapper = __webpack_require__(234);
 
-	var _Layout2 = _interopRequireDefault(_Layout);
+	var _layoutsWrapper2 = _interopRequireDefault(_layoutsWrapper);
 
 	// routes
 	exports["default"] = _react2["default"].createElement(
 	  _reactRouter.Route,
-	  { component: _Layout2["default"] },
+	  { component: _layoutsWrapper2["default"] },
 	  _react2["default"].createElement(_reactRouter.Route, { path: "*", component: _statinamicLibPageContainer2["default"] })
 	);
 	module.exports = exports["default"];
@@ -26391,16 +26391,16 @@
 
 	var _indexCss2 = _interopRequireDefault(_indexCss);
 
-	var Layout = (function (_Component) {
-	  _inherits(Layout, _Component);
+	var Wrapper = (function (_Component) {
+	  _inherits(Wrapper, _Component);
 
-	  function Layout() {
-	    _classCallCheck(this, Layout);
+	  function Wrapper() {
+	    _classCallCheck(this, Wrapper);
 
-	    _get(Object.getPrototypeOf(Layout.prototype), "constructor", this).apply(this, arguments);
+	    _get(Object.getPrototypeOf(Wrapper.prototype), "constructor", this).apply(this, arguments);
 	  }
 
-	  _createClass(Layout, [{
+	  _createClass(Wrapper, [{
 	    key: "render",
 	    value: function render() {
 	      var pkg = this.context.metadata.pkg;
@@ -26430,10 +26430,10 @@
 	    enumerable: true
 	  }]);
 
-	  return Layout;
+	  return Wrapper;
 	})(_react.Component);
 
-	exports["default"] = Layout;
+	exports["default"] = Wrapper;
 	module.exports = exports["default"];
 
 /***/ },
@@ -28759,7 +28759,7 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"wrapper":"web_modules-Layout-index--wrapper--3OHT_"};
+	module.exports = {"wrapper":"web_modules-layouts-Wrapper-index--wrapper--2Py8I"};
 
 /***/ },
 /* 319 */,
@@ -29039,19 +29039,19 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-	var _Page2 = __webpack_require__(328);
+	var _layoutsPage = __webpack_require__(328);
 
-	var _Page3 = _interopRequireDefault(_Page2);
+	var _layoutsPage2 = _interopRequireDefault(_layoutsPage);
 
-	exports.Page = _Page3["default"];
+	exports.Page = _layoutsPage2["default"];
 
 	// additional layouts
 
-	var _PageError2 = __webpack_require__(329);
+	var _layoutsPageError = __webpack_require__(329);
 
-	var _PageError3 = _interopRequireDefault(_PageError2);
+	var _layoutsPageError2 = _interopRequireDefault(_layoutsPageError);
 
-	exports.PageError = _PageError3["default"];
+	exports.PageError = _layoutsPageError2["default"];
 
 	// export Post from "Post"
 
