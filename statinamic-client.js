@@ -25670,7 +25670,7 @@
 		"private": true,
 		"homepage": "http://postcss.com/",
 		"scripts": {
-			"lint": "eslint --ignore-path .gitignore .",
+			"lint": "eslint --ignore-path .gitignore . && stylelint web_modules/**/*.css",
 			"start": "babel-node scripts/build --server --dev --open",
 			"static": "babel-node scripts/build --static --production",
 			"pretest": "npm run lint",
@@ -25685,6 +25685,9 @@
 				"eslint-config-i-am-meticulous",
 				"eslint-config-i-am-meticulous/react"
 			]
+		},
+		"stylelint": {
+			"extends": "stylelint-config-standard"
 		},
 		"devDependencies": {
 			"autoprefixer": "^6.2.3",
@@ -25722,6 +25725,8 @@
 			"redux-thunk": "^0.1.0",
 			"statinamic": "^0.5.1",
 			"style-loader": "^0.12.4",
+			"stylelint": "^3.2.2",
+			"stylelint-config-standard": "^0.2.0",
 			"webpack": "^1.12.9",
 			"whatwg-fetch": "^0.9.0"
 		}

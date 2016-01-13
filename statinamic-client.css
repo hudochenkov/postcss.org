@@ -1,14 +1,9 @@
-.web_modules-Header-index--nav--34d_e {
+.web_modules-Header-index--nav--34d_e { /* placeholder */ }
 
-}
-
-.web_modules-Header-index--link--3o000 {
-
-}
-.web_modules-Footer-index--footer--3mTrO {
-
-}
+.web_modules-Header-index--link--3o000 { /* placeholder */ }
+.web_modules-Footer-index--footer--3mTrO { /* placeholder */ }
 /* GLOBAL STYLES, OMG ! */
+
 h1,
 h2,
 h3 {
@@ -26,19 +21,19 @@ h6 {
 .markdownIt-Anchor {
   position: absolute;
   left: -1.5rem;
-  opacity: .1;
-  -webkit-transition: opacity .2s;
-  transition: opacity .2s;
+  opacity: 0.1;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 
-  h1:hover .markdownIt-Anchor,
-  h2:hover .markdownIt-Anchor,
-  h3:hover .markdownIt-Anchor,
-  h4:hover .markdownIt-Anchor,
-  h5:hover .markdownIt-Anchor,
-  h6:hover .markdownIt-Anchor {
-    opacity: 1;
-  }
+h1:hover .markdownIt-Anchor,
+h2:hover .markdownIt-Anchor,
+h3:hover .markdownIt-Anchor,
+h4:hover .markdownIt-Anchor,
+h5:hover .markdownIt-Anchor,
+h6:hover .markdownIt-Anchor {
+  opacity: 1;
+}
 
 a,
 a:visited {
@@ -47,7 +42,7 @@ a:visited {
 }
 
 blockquote {
-  opacity: .6;
+  opacity: 0.6;
   margin: 2rem 0;
   padding-left: 1.5rem;
   border-left: 4px solid grey;
@@ -60,18 +55,18 @@ pre {
   font-weight: 400;
 
   color: color(#7340c4) l(-10%));
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   border-radius: 0.3em;
-  background: color(#fafafa a(.6));
+  background: color(#fafafa a(0.6));
 }
 
 .hljs-comment {
-  opacity: .4;
+  opacity: 0.4;
 }
 
-  .hljs-comment:hover {
-    opacity: .6;
-  }
+.hljs-comment:hover {
+  opacity: 0.6;
+}
 
 .hljs-keyword {
   font-weight: bold;
@@ -85,7 +80,7 @@ pre {
   color: #7340c4;
 }
 
-/***/
+/* * */
 
 .web_modules-Wrapper-index--wrapper--2PAkD {
   max-width: 50rem;
