@@ -467,7 +467,7 @@
 	    );
 	  }
 
-	  var baseUrl = ({"protocol":"http:","slashes":true,"auth":null,"host":"postcss.com","port":null,"hostname":"postcss.com","hash":null,"search":null,"query":null,"pathname":"/","path":"/","href":"http://postcss.com/"});
+	  var baseUrl = ({"protocol":"http:","slashes":true,"auth":null,"host":"postcss.org","port":null,"hostname":"postcss.org","hash":null,"search":null,"query":null,"pathname":"/","path":"/","href":"http://postcss.org/"});
 	  (0, _fetchJSON2["default"])(baseUrl.pathname + "collection.json").then(function (_ref2) {
 	    var data = _ref2.data;
 	    return store.dispatch({
@@ -25668,14 +25668,14 @@
 
 	module.exports = {
 		"private": true,
-		"homepage": "http://postcss.com/",
+		"homepage": "http://postcss.org/",
 		"scripts": {
 			"lint": "eslint --ignore-path .gitignore . && stylelint web_modules/**/*.css",
 			"start": "babel-node scripts/build --server --dev --open",
 			"static": "babel-node scripts/build --static --production",
 			"pretest": "npm run lint",
 			"test": "npm run static",
-			"posttest": "echo 'postcss.com' > dist/CNAME && touch dist/.nojekyll"
+			"posttest": "echo 'postcss.org' > dist/CNAME && touch dist/.nojekyll"
 		},
 		"babel": {
 			"stage": 0
