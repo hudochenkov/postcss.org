@@ -29372,7 +29372,17 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./index.md": 333
+		"./docs/index.md": 333,
+		"./get-involved/contribute/postcss.md": 334,
+		"./get-involved/contribute/postcss.org.md": 335,
+		"./index.md": 336,
+		"./learn/get-started/adding-plugins.md": 337,
+		"./learn/get-started/adding-postcss.md": 338,
+		"./learn/introduction/faq.md": 339,
+		"./learn/introduction/what-is-postcss.md": 340,
+		"./learn/introduction/why-postcss.md": 341,
+		"./learn/resources/articles.md": 342,
+		"./learn/resources/videos.md": 343
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -29392,7 +29402,67 @@
 /* 333 */
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = __webpack_require__.p + "docs/index.json"
+
+/***/ },
+/* 334 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "get-involved/contribute/postcss/index.json"
+
+/***/ },
+/* 335 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "get-involved/contribute/postcss.org/index.json"
+
+/***/ },
+/* 336 */
+/***/ function(module, exports, __webpack_require__) {
+
 	module.exports = __webpack_require__.p + "index.json"
+
+/***/ },
+/* 337 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "learn/get-started/adding-plugins/index.json"
+
+/***/ },
+/* 338 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "learn/get-started/adding-postcss/index.json"
+
+/***/ },
+/* 339 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "learn/introduction/faq/index.json"
+
+/***/ },
+/* 340 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "learn/introduction/what-is-postcss/index.json"
+
+/***/ },
+/* 341 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "learn/introduction/why-postcss/index.json"
+
+/***/ },
+/* 342 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "learn/resources/articles/index.json"
+
+/***/ },
+/* 343 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "learn/resources/videos/index.json"
 
 /***/ }
 /******/ ]);
