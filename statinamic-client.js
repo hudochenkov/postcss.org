@@ -29234,7 +29234,39 @@
 	            className: _indexCss2["default"].link,
 	            to: "/"
 	          },
-	          "Home"
+	          "Learn"
+	        ),
+	        _react2["default"].createElement(
+	          _reactRouter.Link,
+	          {
+	            className: _indexCss2["default"].link,
+	            to: "/"
+	          },
+	          "Documentation"
+	        ),
+	        _react2["default"].createElement(
+	          _reactRouter.Link,
+	          {
+	            className: _indexCss2["default"].link,
+	            to: "/"
+	          },
+	          "Plugins"
+	        ),
+	        _react2["default"].createElement(
+	          _reactRouter.Link,
+	          {
+	            className: _indexCss2["default"].link,
+	            to: "/"
+	          },
+	          "Blog"
+	        ),
+	        _react2["default"].createElement(
+	          _reactRouter.Link,
+	          {
+	            className: _indexCss2["default"].link,
+	            to: "/"
+	          },
+	          "Get involved"
 	        )
 	      );
 	    }
