@@ -2,7 +2,14 @@ import React, { Component } from "react"
 import { PropTypes } from "react"
 import Helmet from "react-helmet"
 import invariant from "invariant"
+
 import Hero from "Hero"
+import InANutshell from "InANutshell"
+import WayFinder from "WayFinder"
+import Showcase from "Showcase"
+import ByTheCommunity from "ByTheCommunity"
+
+import styles from "./index.css"
 
 export default class HomePage extends Component {
 
@@ -11,11 +18,11 @@ export default class HomePage extends Component {
     __url: PropTypes.string.isRequired,
     head: PropTypes.object.isRequired,
     body: PropTypes.string.isRequired,
-  }
+  };
 
   static contextTypes = {
     metadata: PropTypes.object.isRequired,
-  }
+  };
 
   render() {
     const {
@@ -24,7 +31,6 @@ export default class HomePage extends Component {
 
     const {
       head,
-      body,
     } = this.props
 
     invariant(typeof head.title === "string", "Your page needs a title")
@@ -41,21 +47,28 @@ export default class HomePage extends Component {
     ]
 
     return (
-      <div>
+      <main className={ styles.root } role="main">
         <Helmet
           title={ head.title }
           meta={ meta }
         />
-
-        <Hero />
-        {
-          body &&
-          <div
-            dangerouslySetInnerHTML={ { __html: body } }
-          />
-        }
+        <div className={ styles.hero }>
+          <Hero />
+        </div>
+        <div className={ styles.inANutshell }>
+          <InANutshell />
+        </div>
+        <div className={ styles.wayFinder }>
+          <WayFinder />
+        </div>
+        <div className={ styles.showcase }>
+          <Showcase />
+        </div>
+        <div className={ styles.byTheCommunity }>
+          <ByTheCommunity />
+        </div>
         { this.props.children }
-      </div>
+      </main>
     )
   }
 }
